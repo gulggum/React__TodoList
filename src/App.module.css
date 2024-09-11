@@ -1,0 +1,70 @@
+body {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* {
+  list-style: none;
+}
+
+.container {
+  width: 340px;
+  height: 650px;
+  background-color: orange;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.todoListBox {
+  width: 320px;
+  height: 80%;
+}
+
+ul {
+  width: 100%;
+  height: 85%;
+  margin: 0;
+  padding: 30px 0px;
+  overflow: auto;
+  background-color: whitesmoke;
+}
+
+li {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  border-bottom: 1px solid rgb(227, 227, 227);
+}
+form {
+  width: 320px;
+  text-align: center;
+  display: flex;
+  align-items: end;
+}
+input {
+  width: 80%;
+  height: 32px;
+  padding: 5px 20px;
+}
+button {
+  width: 20%;
+  height: 42px;
+  cursor: pointer;
+}
+
+input,
+button {
+  border: none;
+  border-radius: 20px;
+}
+
+.deleteBtn {
+  background-color: none;
+}
